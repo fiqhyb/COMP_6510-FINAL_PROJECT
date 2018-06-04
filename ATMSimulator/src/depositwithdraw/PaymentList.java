@@ -277,7 +277,7 @@ public class PaymentList extends javax.swing.JFrame {
         this.dispose();
         if(command.equals("LEFTMOUSECLICK"))
         {
-            PLN.setEnabled(false);
+            PDAM.setEnabled(false);
         }
     }//GEN-LAST:event_PDAMActionPerformed
 
@@ -301,7 +301,7 @@ public class PaymentList extends javax.swing.JFrame {
         this.dispose();
         if(command.equals("LEFTMOUSECLICK"))
         {
-            PLN.setEnabled(false);
+            PGN.setEnabled(false);
         }
     }//GEN-LAST:event_PGNActionPerformed
 
@@ -325,7 +325,7 @@ public class PaymentList extends javax.swing.JFrame {
         this.dispose();
         if(command.equals("LEFTMOUSECLICK"))
         {
-            PLN.setEnabled(false);
+            PLNToken.setEnabled(false);
         }
     }//GEN-LAST:event_PLNTokenActionPerformed
 
